@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero{
+    background-image: url(assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax{
+    background-image: url(assets/parallax.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.community-bg {
+    background-image: url(assets/community-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
